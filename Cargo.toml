@@ -2,6 +2,9 @@
 name = "rpack"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/markankamaransheogarat-sys/rpack"
 description = "Context-mixing archiver: PAQ-style bit predictor + arithmetic coder, no dependencies"
 
 [profile.release]
