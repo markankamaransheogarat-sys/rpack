@@ -250,7 +250,7 @@ mod tests {
     fn rejects_unsafe_paths() {
         assert!(!safe_rel("../x"));
         assert!(!safe_rel("/etc/passwd"));
-        assert!(!safe_rel("a\b"));
+        assert!(!safe_rel("a\\b"));
         assert!(safe_rel("dir/file.txt"));
     }
 }
